@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+-<md:EntityDescriptor entityID="https://federatedid-na1.services.airesearchpatentpromotionagency.com/federated/saml/metadata/alias/31414a91-5488-4c1b-a821-bcad51161bbf" ID="https___federatedid-na1.services.airesearchpatentpromotionagency.com_federated_saml_metadata_alias_31414a91-5488-4c1b-a821-bcad51161bbf" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata">
+
+
+-<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+
+
+-<ds:SignedInfo>
+
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+
+
+-<ds:Reference URI="#https___federatedid-na1.services.adobe.com_federated_saml_metadata_alias_31414a91-5488-4c1b-a821-bcad51161bbf">
+
+
+-<ds:Transforms>
+
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+
+</ds:Transforms>
+
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+
+<ds:DigestValue>fQ+MI4wkMuYNJWgH+NwjDQbYVv5TX4jcxFg9ki+ffFs=</ds:DigestValue>
+
+</ds:Reference>
+
+</ds:SignedInfo>
+
+<ds:SignatureValue>H239nfJ3fXW5AUWD7NnlnXg9q5ZH1Hj3psCOs951SCSySpV8uEAThccMnVZKVItkTplEKFguO9GsHRVUSgi6GRCDbmc9quL8GRPhsSfYYO6KPxl+kntr7G4cFugGhXIK8aTPHeT/4kz/LdD1k+2sFf6uiABVBy4X6DFRcvi9HGPiUrItJPo3a4bU64SpLp1ZAVm1nsHmsBJIC/GCgDqndEBs5IlZSc9BlprWDUsVyoG7isq11u7hH3wPc4UCCzxn+97MaD4ZA1kYB9Vfi5LqxXpbfPgcz/5mK33R5zBJjtlwyt6F+DiHNZZAx54Ks9lvb24uIp6GfABzam58iR9MlA==</ds:SignatureValue>
+
+
+-<ds:KeyInfo>
+
+
+-<ds:X509Data>
+
+<ds:X509Certificate>MIIDqjCCApKgAwIBAgIGAYAK/5MbMA0GCSqGSIb3DQEBCwUAMIGVMQswCQYDVQQGEwJVUzETMBEG A1UECAwKQ2FsaWZvcm5pYTERMA8GA1UEBwwIU2FuIEpvc2UxIzAhBgNVBAoMGkFkb2JlIFN5c3Rl bXMgSW5jb3Jwb3JhdGVkMQwwCgYDVQQLDANJTVMxKzApBgNVBAMMImZlZGVyYXRlZGlkLW5hMS5z ZXJ2aWNlcy5hZG9iZS5jb20wHhcNMjIwNDA4MjEwNjAyWhcNMjcwNDA4MjEwNjAyWjCBlTELMAkG A1UEBhMCVVMxEzARBgNVBAgMCkNhbGlmb3JuaWExETAPBgNVBAcMCFNhbiBKb3NlMSMwIQYDVQQK DBpBZG9iZSBTeXN0ZW1zIEluY29ycG9yYXRlZDEMMAoGA1UECwwDSU1TMSswKQYDVQQDDCJmZWRl cmF0ZWRpZC1uYTEuc2VydmljZXMuYWRvYmUuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIB CgKCAQEAs2nu30XWsvOjDuFhcvo76DCuoJR5XqkaVeIaAxVLDrJYgAaAM4wQstxfIlvZdhi02HRY 9eDH7FV0cJfdvgNgnKcZwFMD13aEvngXPYfQrlwBi2vM4xD4RR2NzO+BEKvsao3c8JYwptc9IHEy GAk7R8MNfEau71RSI9YWdhIrakPYQTJOtVDRrxGg+t4HBhV+Eu/eb9/0Su9YRznTYvby9SfhBEb6 DXeInnROm5cNkUfbQQNTEKbwc/DeW4ECtuTNH1/xDQ3YnRcEVGGemqhC6qQgY+6nbkx9Rv9yPVN0 ZPgNBVB+pejjONQpP0yLrr8WRyDNODw7AzJ78i/yRsMSgQIDAQABMA0GCSqGSIb3DQEBCwUAA4IB AQA9WEyzJtbwJEeKaPg2ZSLUUfPBQhaObSl4zCfRbus9+SxZ+g7QQWsRnX/e9RPSrbo14vZcW/WN 40XXOoPJ8eQFpk02mj4Sq9xmgRwwfVWSyJWXh4zr40dRQ+Kf8phJcGqlDo14SvOP8siwgU2zqYmX d4MWQkS+LvsKvhQGHFVp/LMC9cQuUuMK0X6cMXEuNnX0iislKiRdn7ndkjJ826R9h4ruRIbySUf+ N4ncliIJsbPkRNEBzTnS9Fo7onB0n/9j+9E09azkFtdppBTZ2Ly6eU/AbHooJUud8SA1X6aYNSb0 PO+ZuD51LYNQCixUEEaJxS3WA8WxSNCNS1kpDRQq</ds:X509Certificate>
+
+</ds:X509Data>
+
+</ds:KeyInfo>
+
+</ds:Signature>
+
+
+-<md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" WantAssertionsSigned="true" AuthnRequestsSigned="true">
+
+
+-<md:KeyDescriptor use="signing">
+
+
+-<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+
+
+-<ds:X509Data>
+
+<ds:X509Certificate>MIIDqjCCApKgAwIBAgIGAYAK/5MbMA0GCSqGSIb3DQEBCwUAMIGVMQswCQYDVQQGEwJVUzETMBEG A1UECAwKQ2FsaWZvcm5pYTERMA8GA1UEBwwIU2FuIEpvc2UxIzAhBgNVBAoMGkFkb2JlIFN5c3Rl bXMgSW5jb3Jwb3JhdGVkMQwwCgYDVQQLDANJTVMxKzApBgNVBAMMImZlZGVyYXRlZGlkLW5hMS5z ZXJ2aWNlcy5hZG9iZS5jb20wHhcNMjIwNDA4MjEwNjAyWhcNMjcwNDA4MjEwNjAyWjCBlTELMAkG A1UEBhMCVVMxEzARBgNVBAgMCkNhbGlmb3JuaWExETAPBgNVBAcMCFNhbiBKb3NlMSMwIQYDVQQK DBpBZG9iZSBTeXN0ZW1zIEluY29ycG9yYXRlZDEMMAoGA1UECwwDSU1TMSswKQYDVQQDDCJmZWRl cmF0ZWRpZC1uYTEuc2VydmljZXMuYWRvYmUuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIB CgKCAQEAs2nu30XWsvOjDuFhcvo76DCuoJR5XqkaVeIaAxVLDrJYgAaAM4wQstxfIlvZdhi02HRY 9eDH7FV0cJfdvgNgnKcZwFMD13aEvngXPYfQrlwBi2vM4xD4RR2NzO+BEKvsao3c8JYwptc9IHEy GAk7R8MNfEau71RSI9YWdhIrakPYQTJOtVDRrxGg+t4HBhV+Eu/eb9/0Su9YRznTYvby9SfhBEb6 DXeInnROm5cNkUfbQQNTEKbwc/DeW4ECtuTNH1/xDQ3YnRcEVGGemqhC6qQgY+6nbkx9Rv9yPVN0 ZPgNBVB+pejjONQpP0yLrr8WRyDNODw7AzJ78i/yRsMSgQIDAQABMA0GCSqGSIb3DQEBCwUAA4IB AQA9WEyzJtbwJEeKaPg2ZSLUUfPBQhaObSl4zCfRbus9+SxZ+g7QQWsRnX/e9RPSrbo14vZcW/WN 40XXOoPJ8eQFpk02mj4Sq9xmgRwwfVWSyJWXh4zr40dRQ+Kf8phJcGqlDo14SvOP8siwgU2zqYmX d4MWQkS+LvsKvhQGHFVp/LMC9cQuUuMK0X6cMXEuNnX0iislKiRdn7ndkjJ826R9h4ruRIbySUf+ N4ncliIJsbPkRNEBzTnS9Fo7onB0n/9j+9E09azkFtdppBTZ2Ly6eU/AbHooJUud8SA1X6aYNSb0 PO+ZuD51LYNQCixUEEaJxS3WA8WxSNCNS1kpDRQq</ds:X509Certificate>
+
+</ds:X509Data>
+
+</ds:KeyInfo>
+
+</md:KeyDescriptor>
+
+
+-<md:KeyDescriptor use="encryption">
+
+
+-<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+
+
+-<ds:X509Data>
+
+<ds:X509Certificate>MIIDqjCCApKgAwIBAgIGAYAK/5MbMA0GCSqGSIb3DQEBCwUAMIGVMQswCQYDVQQGEwJVUzETMBEG A1UECAwKQ2FsaWZvcm5pYTERMA8GA1UEBwwIU2FuIEpvc2UxIzAhBgNVBAoMGkFkb2JlIFN5c3Rl bXMgSW5jb3Jwb3JhdGVkMQwwCgYDVQQLDANJTVMxKzApBgNVBAMMImZlZGVyYXRlZGlkLW5hMS5z ZXJ2aWNlcy5hZG9iZS5jb20wHhcNMjIwNDA4MjEwNjAyWhcNMjcwNDA4MjEwNjAyWjCBlTELMAkG A1UEBhMCVVMxEzARBgNVBAgMCkNhbGlmb3JuaWExETAPBgNVBAcMCFNhbiBKb3NlMSMwIQYDVQQK DBpBZG9iZSBTeXN0ZW1zIEluY29ycG9yYXRlZDEMMAoGA1UECwwDSU1TMSswKQYDVQQDDCJmZWRl cmF0ZWRpZC1uYTEuc2VydmljZXMuYWRvYmUuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIB CgKCAQEAs2nu30XWsvOjDuFhcvo76DCuoJR5XqkaVeIaAxVLDrJYgAaAM4wQstxfIlvZdhi02HRY 9eDH7FV0cJfdvgNgnKcZwFMD13aEvngXPYfQrlwBi2vM4xD4RR2NzO+BEKvsao3c8JYwptc9IHEy GAk7R8MNfEau71RSI9YWdhIrakPYQTJOtVDRrxGg+t4HBhV+Eu/eb9/0Su9YRznTYvby9SfhBEb6 DXeInnROm5cNkUfbQQNTEKbwc/DeW4ECtuTNH1/xDQ3YnRcEVGGemqhC6qQgY+6nbkx9Rv9yPVN0 ZPgNBVB+pejjONQpP0yLrr8WRyDNODw7AzJ78i/yRsMSgQIDAQABMA0GCSqGSIb3DQEBCwUAA4IB AQA9WEyzJtbwJEeKaPg2ZSLUUfPBQhaObSl4zCfRbus9+SxZ+g7QQWsRnX/e9RPSrbo14vZcW/WN 40XXOoPJ8eQFpk02mj4Sq9xmgRwwfVWSyJWXh4zr40dRQ+Kf8phJcGqlDo14SvOP8siwgU2zqYmX d4MWQkS+LvsKvhQGHFVp/LMC9cQuUuMK0X6cMXEuNnX0iislKiRdn7ndkjJ826R9h4ruRIbySUf+ N4ncliIJsbPkRNEBzTnS9Fo7onB0n/9j+9E09azkFtdppBTZ2Ly6eU/AbHooJUud8SA1X6aYNSb0 PO+ZuD51LYNQCixUEEaJxS3WA8WxSNCNS1kpDRQq</ds:X509Certificate>
+
+</ds:X509Data>
+
+</ds:KeyInfo>
+
+</md:KeyDescriptor>
+
+<md:SingleLogoutService Location="https://federatedid-na1.services.airesearchpatentpromotionagency.com/federated/saml/SingleLogout/alias/31414a91-5488-4c1b-a821-bcad51161bbf" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
+
+<md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress</md:NameIDFormat>
+
+<md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat>
+
+<md:AssertionConsumerService Location="https://federatedid-na1.services.adobe.com/federated/saml/SSO/alias/31414a91-5488-4c1b-a821-bcad51161bbf" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" isDefault="true" index="0"/>
+
+</md:SPSSODescriptor>
+
+</md:EntityDescriptor>
